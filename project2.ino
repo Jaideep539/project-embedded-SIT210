@@ -1,5 +1,5 @@
 // --- Alcohol Detection & Car Lock System ---
-// Harshpreet Singh Raju
+
 // MQ-3 Sensor + Relay + Raspberry Pi Communication
 
 const int MQ3_PIN = A0;    // MQ-3 sensor analog output connected to A0
@@ -34,3 +34,4 @@ void loop() {
 
   delay(1000); // Wait 1 second before next reading
 }
+
